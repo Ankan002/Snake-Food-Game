@@ -11,7 +11,7 @@ function main(currenTime){
     if(gameOver){
         let score= Score()
         if (confirm(`Your Score is ${score}. Press Ok to restart`)){
-            window.location = '/'
+            window.location.reload(true)
         }
         return
     }
